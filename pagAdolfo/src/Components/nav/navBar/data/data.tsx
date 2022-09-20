@@ -7,7 +7,7 @@ export enum rutasPrincipal {
     
     Inic = "Home",
     Who = "Who are",
-    Contact = "Contact",
+    Contact  = "Contact us",
     Galery="Galery",
     Form = "Form",
  
@@ -44,82 +44,6 @@ export const rutasUsuario = {
 
 }
 
-
-
-//creacion del arreglo de objetos:objetoLinkNavBar que manejara la informacion dentro del nav
-/*export const seccionInventario: ObjetoLinkNavBar[] = ([
-   /* {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Inic),
-        newSection: false,
-        nombre: rutasInventario.Home
-        
-    },
-    {
-        nombrePage:regexNoWhitSpace(rutasPrincipal.Inventario),
-        newSection: false,
-        nombre: rutasInventario.Grupos,
-        urlImagen: images.grupos
-    }, {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Inventario),
-        newSection: true,
-        nombre: rutasInventario.Almacen,
-        urlImagen: images.almacen,
-    }, {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Inventario),
-        newSection: false,
-        nombre: rutasInventario.Entradas,
-        urlImagen: images.entradas,
-    }, {
-        nombrePage:regexNoWhitSpace(rutasPrincipal.Inventario),
-        newSection: false,
-        nombre: rutasInventario.Salidas,
-        urlImagen: images.salidas,
-    }, {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Inventario),
-        newSection: true,
-        nombre: regexNoWhitSpace(rutasPrincipal.Inventario),
-        urlImagen: images.traspasos,
-    },
-    {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Inventario),
-        newSection: false,
-        nombre: rutasInventario.Otros,
-        urlImagen: images.trazabilidad,
-        otros: {
-            informacion: [
-                rutasInventario.OtrosValue.MovimientosDeArticulos, 
-                rutasInventario.OtrosValue.ValorDeInventario, 
-                rutasInventario.OtrosValue.DescuentosEspeciales, 
-                rutasInventario.OtrosValue.AjustesDeInventario, 
-                rutasInventario.OtrosValue.EliminarInventario, 
-                rutasInventario.OtrosValue.CierreMensualDelSistema
-            ]
-        }
-    }
-
-])*/
-
-/*export const seccionCompras:ObjetoLinkNavBar[] = ([
-   
-    {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Compras),
-        newSection: false,
-        nombre: "Prueba1",
-        urlImagen: images.almacen
-    },
-    {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Compras),
-        newSection: true,
-        nombre: "Prueba2",
-        urlImagen: images.almacen
-    }, {
-        nombrePage: regexNoWhitSpace(rutasPrincipal.Compras),
-        newSection: true,
-        nombre: "Prueba3",
-        urlImagen: images.almacen
-    } 
-])*/
-
 export const seccionUsuario: ObjetoLinkNavBar[] = (
     [
       
@@ -140,8 +64,8 @@ export const seccionUsuario: ObjetoLinkNavBar[] = (
         {
             nombrePage: regexNoWhitSpace(`${rutasPrincipal.Inic}`),
             newSection: false,
-            nombre: "Ingresar propietario",
-            subRuta: "Propietarios/Nuevo",
+            nombre: "Contact Us",
+            subRuta: "Contact us",
             urlImagen:  // temp
         }
     ]

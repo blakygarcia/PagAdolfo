@@ -9,8 +9,6 @@ import { ContentNavBar } from "./components/ContentNav/Index";
 
 import {
     rutasPrincipal,
-    seccionCompras,
-    seccionInventario,
     seccionUsuario,
     nameNav
 } from './data/data';
