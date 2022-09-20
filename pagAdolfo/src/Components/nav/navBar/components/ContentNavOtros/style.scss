@@ -1,0 +1,47 @@
+/* variables */
+$border-color: 1px solid rgba(190, 190, 190, 0.54);
+$color-primary: rgb(245, 245, 247);
+
+#subMenuOtros {
+    display: none;
+    position: absolute;
+    background-color: $color-primary;
+    transform: translateX(-15%);
+    border-radius: 14px;
+    overflow: hidden;
+    padding: 0;
+    border: $border-color;
+
+    li {
+        position: relative;
+        display: inline-block;
+        width: 120px;
+        height: 100%;
+        display: block;
+        width: 100%;
+        border-top: 1px solid transparent;
+        border-bottom: 1px solid transparent;
+
+        a {
+            display: inline-block;
+            padding: 5px 10px;
+            width: 100%;
+            color: black;
+            font-size: 1.5rem;
+        }
+
+        &:hover {
+            background: rgba(102, 102, 102, 0.399);
+            border-top: 1px solid rgba(128, 128, 128, 0.472);
+            border-bottom: 1px solid rgba(128, 128, 128, 0.472);
+        }
+    }
+}
+
+.downListOtros {
+    &:hover {
+        #subMenuOtros {
+            display: block;
+        }
+    }
+}

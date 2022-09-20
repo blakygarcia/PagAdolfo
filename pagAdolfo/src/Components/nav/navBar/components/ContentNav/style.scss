@@ -1,0 +1,57 @@
+/* variables */
+$border-color: 1px solid rgba(190, 190, 190, 0.54);
+$color-primary: rgb(245, 245, 247);
+$letra-color: rgb(0, 0, 0);
+$font-size: 12px;
+
+
+/*Content-holder*/
+
+.content-holder { 
+    margin-left: 3%;
+    display: flex;
+    align-items: flex-start;
+    background-color: $color-primary;
+    border-bottom: $border-color;
+    font-size: $font-size;
+    transition: 5ms; 
+}
+
+.section {
+    display: flex;
+    margin-top: 0.7rem;
+    background-color: $color-primary;
+    transition: 5ms;
+}
+
+.group {
+    display: flex;
+    background-color: $color-primary;
+    padding: 0px 0.1rem 3rem 0px; 
+    border-right: $border-color;
+    transition: 5ms;
+}
+
+.unGroup { 
+    display: flex;
+    background-color: $color-primary;
+    padding: 0px 0px 3rem 0px;   
+    transition: 5ms; 
+}
+
+.ribbon-button {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+    margin-left: 0.2rem;
+    background-color: $color-primary;
+    border: 0.1rem solid transparent; 
+    transition: 5ms; 
+
+    &:hover {
+        background-color: rgba(60, 180, 249, 0.138);
+        border: 1px solid rgba(98, 180, 202, 0.5);
+    }
+} 
