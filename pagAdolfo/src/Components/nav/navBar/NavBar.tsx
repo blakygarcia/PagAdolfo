@@ -14,9 +14,7 @@ import {
 
 //import { LinkNavBar } from "./index";
 import {regexNoWhitSpace} from './utils/util';
-import '../../styles/nav/_NavBar.scss';
-
-
+import '../../../../src/styles/nav/_NavBar.scss';
 //Este componente se encarga de colocar la navegacion principal enviandole un arreglo de string como parametro
 //el arreglo de string es el nombre de la seccion que se esta usando y carga el siguiente componente que es el 
 //LinkNavBar enviandole la ubicacion actual del componente, asi puede realizar una carga de los datos correctos
