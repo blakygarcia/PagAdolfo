@@ -8,7 +8,7 @@ export enum rutasPrincipal {
     Inic = "Home",
     Who = "Who are",
     Contact  = "Contact us",
-    Galery="Galery",
+    Gallery="Gallery",
     Form = "Form",
  
 }
@@ -19,24 +19,26 @@ export const nameNav: string[] = [
     rutasPrincipal.Inic,
     rutasPrincipal.Who,
     rutasPrincipal.Contact,
-    rutasPrincipal.Galery,
+    rutasPrincipal.Gallery,
     rutasPrincipal.Form
   
 ]; 
 
  
-export const rutasInventario = {
-    Articulos: "Articulos",
+export const rutasWhoare = {
+
+    Whoare: "whoares",
+    /*Articulos: "Articulos",
     Otros: "Otros",
     OtrosValue: {
         MovimientosDeArticulos: "Movimientos De Articulos",
      
-    }
+    }*/
 }
 
-export const rutasUsuario = {
-    Propietario: "Propietarios",
-    Usuario: "Usuarios"
+export const rutasInic = {
+   
+    Home: "Homes"
 
 
 
@@ -44,7 +46,26 @@ export const rutasUsuario = {
 
 }
 
-export const seccionUsuario: ObjetoLinkNavBar[] = (
+export const rutasContact = {
+   
+    Contact: "Contactus"
+
+
+
+
+
+}
+export const rutasGallery = {
+   
+    Gallery: "Garelly"
+
+
+
+
+
+}
+
+/*export const seccionUsuario: ObjetoLinkNavBar[] = (
     [
       
         {
@@ -69,4 +90,4 @@ export const seccionUsuario: ObjetoLinkNavBar[] = (
             urlImagen:  // temp
         }
     ]
-)
+)*/
