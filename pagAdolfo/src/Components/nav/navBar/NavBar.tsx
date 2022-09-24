@@ -5,11 +5,10 @@ import {
     NavLink,
 } from "react-router-dom";
 
-import { ContentNavBar } from "./components/ContentNav/Index";
+import { ContentNavBar } from "./components/ContNav/Index";
 
 import {
     rutasPrincipal,
-    seccionUsuario,
     nameNav
 } from './data/data';
 
@@ -35,13 +34,13 @@ export const NavBar = () => {
     return (
         <div className="navBar">
             <span className="title">
-                Terbï
+            Costa Rica Limpia
             </span>
             <nav>
                 <ul className="tabs-holder">
                     <li>
                         <NavLink className="navStatic" to="/">
-                            Terbï
+                            Costa Rica Limpia
                         </NavLink>
                     </li>
                     
@@ -66,15 +65,15 @@ export const NavBar = () => {
                         aqui se envian los datos de la navegacion a ContentNavBar enviandole el objeto respectivo
                         para ese contenido de la navegacion
                     */}
-                {
-                    (locationNav == rutasPrincipal.Inventario) && <ContentNavBar {...seccionInventario} />
+                {/*
+                    (locationNav == rutasPrincipal.Inic) && <ContentNavBar {...seccionUsuario} />
                 }
                 {
-                    (locationNav == rutasPrincipal.Compras) && <ContentNavBar {...seccionCompras}  />
+                    (locationNav == rutasPrincipal.Who) && <ContentNavBar {...seccionUsuario}  />
                 }
                 {
-                    (locationNav == rutasPrincipal.Usuario) && <ContentNavBar {...seccionUsuario} />
-                }
+                    (locationNav == rutasPrincipal.Contact) && <ContentNavBar {...seccionUsuario} />
+                */}
             </nav >
 
 
