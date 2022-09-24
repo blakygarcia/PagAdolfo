@@ -6,7 +6,7 @@ import {
 } from '../../data/data';
 import { Route, Routes } from "react-router-dom"; 
 import {regexNoWhitSpace} from '../../utils/util';
-import {Home}  from '../Home';
+import {Home}  from '../../../../../Pages/Home';
 //import Whoare  from '../../../../pages/VistaUsuario';
 //import Contactus from '../../../Login';
 //import { Console } from 'console';
